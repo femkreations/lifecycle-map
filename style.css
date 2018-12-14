@@ -1,0 +1,94 @@
+/******************************************************************************
+BLOG SPECIFIC STYLES START HERE 
+******************************************************************************/
+#graphic {
+	width:432px;
+	height:275px;
+	position:relative;
+	margin:20px 0;
+}
+p.text {
+	color:#1b4374;
+	position:absolute;
+	font: 20.16px Arial, Verdana, sans-serif;
+	top:139px;
+	left:141px;
+	margin:0;
+}
+p a {
+	position:absolute;
+	background-repeat:no-repeat;
+	text-indent:-999999px;
+	outline:none;
+	cursor:pointer;
+}
+p a span{
+	display:block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+    zoom: 1;
+}
+p a.img1{
+	top:0;
+	left:0;
+	width:186px;
+	height:160px;
+}
+p a.img1 span{
+	background-image:url('images/intermediate.png');
+	width:186px;
+	height:160px;
+}
+p a.img2{
+	top:85px;
+	left:0;
+	width:124px;
+	height:175px;
+}
+p a.img2 span{
+	background-image:url('images/foundational.png');
+	width:124px;
+	height:175px;
+}
+p a.img3{
+	left:115px;
+	top:194px;
+	width:225px;
+	height:81px;
+	z-index:11;
+}
+p a.img3 span{
+	background-image:url('images/on-boarding.png');
+	width:225px;
+	height:81px;
+}
+p a.img4{
+	top:81px;
+	right:5px;
+	width:106px;
+	height:169px;
+	z-index:10;
+}
+p a.img4 span{
+	background-image:url('images/talent.png');
+	width:106px;
+	height:169px;
+}
+p a.img5{
+	top:0;
+	left:209px;
+	width:193px;
+	height:152px;
+}
+p a.img5 span{
+	background-image:url('images/advanced.png');
+	width:193px;
+	height:152px;
+}
+
+p a.off{
+	opacity:1;
+}
+p a.on{
+	opacity:0.5;
+}
